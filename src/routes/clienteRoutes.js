@@ -1,5 +1,6 @@
 import { Router } from "express";
 import clienteController from "../controllers/clienteController.js";
+
 const clienteRoutes = Router();
 
 clienteRoutes.get('/', clienteController.selecionar);
